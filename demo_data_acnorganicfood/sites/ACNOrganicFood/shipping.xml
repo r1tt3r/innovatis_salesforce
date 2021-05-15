@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shipping xmlns="http://www.demandware.com/xml/impex/shipping/2007-03-31">
+    <shipping-method method-id="001" default="true">
+        <display-name xml:lang="x-default">Motoboy</display-name>
+        <description xml:lang="x-default">Entrega via motoboy na cidade de São Paulo</description>
+        <online-flag>true</online-flag>
+        <tax-class-id>standard</tax-class-id>
+        <price-table>
+            <amount order-value="0">0</amount>
+        </price-table>
+        <currency>BRL</currency>
+    </shipping-method>
+</shipping>

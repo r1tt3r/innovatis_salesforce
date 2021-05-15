@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="organicfood-catalog">
+    <header>
+        <image-settings>
+            <internal-location base-path="/"/>
+            <view-types>
+                <view-type>large</view-type>
+                <view-type>medium</view-type>
+                <view-type>small</view-type>
+                <view-type>swatch</view-type>
+            </view-types>
+            <alt-pattern>${productname}</alt-pattern>
+            <title-pattern>${productname}</title-pattern>
+        </image-settings>
+    </header>
+
+    <category category-id="root">
+        <display-name xml:lang="x-default">OrganicFood Master Catalog</display-name>
+        <online-flag>true</online-flag>
+        <template/>
+        <page-attributes/>
+    </category>
+
+    <category category-id="verduras">
+        <display-name xml:lang="x-default">Verduras</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <position>10.0</position>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="legumes">
+        <display-name xml:lang="x-default">Legumes</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <position>20.0</position>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="ovos">
+        <display-name xml:lang="x-default">Ovos</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <position>30.0</position>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="frutas">
+        <display-name xml:lang="x-default">Frutas</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <position>40.0</position>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="temperos-diferenciados">
+        <display-name xml:lang="x-default">Temperos diferenciados</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <position>50.0</position>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="queijos">
+        <display-name xml:lang="x-default">Queijos</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <position>60.0</position>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="carnes-aves">
+        <display-name xml:lang="x-default">Carnes e aves</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <position>70.0</position>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="tortas-bolos-fit">
+        <display-name xml:lang="x-default">Tortas e bolos fit</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <position>80.0</position>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <product product-id="abacaxi">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Abacaxi Orgânico</display-name>
+        <short-description xml:lang="x-default">O Abacaxi é simbolo da tropicalidade brasileira! Não é por menos, essa fruta de aparência única tem origem aquí! O Abacaxi é super rico em Vitamina C, que é um antioxidante natural. Também é rico em Magnésio, que auxilia a regular a atividade muscular.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes/>
+        <classification-category>frutas</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="abobora">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Abóbora Moranga</display-name>
+        <short-description xml:lang="x-default">A abóbora de inverno é um vegetal anual que representa várias espécies de abóbora do gênero Cucurbita. Ela difere da abóbora por ser colhida e comida na fase madura, quando as sementes amadurecem completamente e a casca endurece e torna-se uma casca dura.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes/>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="agriao">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Agrião</display-name>
+        <short-description xml:lang="x-default">O agrião é uma das hortaliças mais comuns nas mesas do brasil e tem um sabor levemente amargo e picante. Extramamente rico em vitaminas o agrião é uma obrigação de qualquer dieta saudável, fica muito gostoso em saladas acompanhadas de alguma proteína, como o frango e a carne vermelha. Devido à sua alta quantidade de antioxidantes (em especial vitaminas C e A), o agrião é considerado um superalimento, ajudando no combate ao câncer, aumento do sistema imunológico e agindo como anti-viral. Melhor época do ano: Todo o ano.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes/>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="alface-crespa">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Alface Crespa</display-name>
+        <short-description xml:lang="x-default">A alface crespa tem esse nome por conta das pequenas ondulações nas pontas de suas folhas. É o tipo de alface mais comum entre todos os tipos de alface, não é a tôa que quase toda salada têm alface crespa! Diferente da alface americana que é crocante, suas folhas são bastante flexíveis, longas e abertas. A alface crespa é rica em fibras e auxilia no processo de digestão.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes/>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="alface-romana">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Alface Romana</display-name>
+        <short-description xml:lang="x-default">Alface-romana, é uma variedade de Alface de tamanho grande e de folhas resistentes com um talo firme no centro. Ao contrário da maioria das espécies de alface, a romana é tolerante ao calor. Este tipo de alface se originou na ilha grega de Cos.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes/>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="beterraba">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Beterraba Orgânica</display-name>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes/>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="brocolis">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Brócolis Japonés</display-name>
+        <short-description xml:lang="x-default">O Brócolis Japonês, também conhecido como brócolis ninja, é um buquê único e em geral comercializado já limpo, podendo ser fresco ou congelado (na Raízs trabalhamos somente com a versão fresca, muito mais saborosa). Esse verdinho é super rico em ferro (que geralmente é ausente na dieta dos brasileiros), cálcio e vitaminas (A, B, C e K). Além do alto teor nutritivo, diversas pesquisas comprovam sua ação anticancerígena contra o câncer de mama, bexiga, pulmão ecólon. Além de tantos benefícios, pode ser consumido cru ou cozido.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes/>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="couveflor">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Couve Flor</display-name>
+        <short-description xml:lang="x-default">Diferente da maioria dos seus similares, a Couve-Flor é branquinha, já que suas flores permanecem cobertas pelas folhas e nao recebem a incidencia de sol durante o cultivo, o que impossibilita a produção de clorofira, substância responsável pela coloração verde. Apesar da sua coloração um pouco mais pálida, a Couve-Flor é super rica em vitaminas (C, K e do complexo B) e antioxidantes, sendo uma ótima aliada no combate ao envelhecimento, doenças cardíacas, câncer além de auxiliar no aumento do sistema imunológico. Na hora de servir, quem não lembra da couve-flor com molho branco gratinada? Prato clássico! Além disso, pode ser servida crua ou fervida rapidamente antes de colocada na salada.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes/>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="limao">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Limão Tahiti</display-name>
+        <short-description xml:lang="x-default">O Limão impressiona pela sua versatilidade e variedade de usos, desde pratos doces e salgados, quentes e frios, sucos e até para limpeza de utensílios de cozinha. Tipicamente conhecido como uma fruta rica em vitamina C, fundamental para o bom funcionamento do sistema imunológico, o Limão também apresenta quantidades significativas de vitamina A. Estudos recentes mostram a importância dos limonóides, substância encontrada no Limão, para o combate ao câncer de boca, pele, mama, cólon e estômago.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes/>
+        <classification-category>frutas</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="macagala">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Maçã Gala</display-name>
+        <short-description xml:lang="x-default">A maçã é o pseudofruto pomáceo da macieira, árvore da família Rosaceae. É um dos pseudofrutos de árvore mais cultivados, e o mais conhecido dos muitos membros do género Malus que são usados ​​pelos seres humanos.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes/>
+        <classification-category>frutas</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="mamao">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Mamão Formosa</display-name>
+        <short-description xml:lang="x-default">Além do sabor delicioso e da cor laranja intensa, há uma série de benefícios do mamão para a saúde de quem o consome. A fruta é uma fonte rica em nutrientes. É consumido maduro ou verde, sendo esse utilizado em saladas, suas sementes também são comestíveis, ricas em gorduras e proteínas.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes/>
+        <classification-category>frutas</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="mexerica">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Mexerica Orgânico</display-name>
+        <short-description xml:lang="x-default">A Mexirica é super rica em Vitamina C e tem pouquíssimas calorias. Sabe aqueles fiozinhos brancos presentes na Mexirica? Eles são super ricos em fibras e também devem ser comidos sem medo!</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes/>
+        <classification-category>frutas</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="ovos">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Ovos Katayama</display-name>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes/>
+        <classification-category>frutas</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="queijo-frescal">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Queijo Minas Frescal</display-name>
+        <short-description xml:lang="x-default">Ame ou odeie, o rabanete é um ingrediente com sabor marcante e recheado de benefícios. Prima da couve e do repolho, essa hortaliça oferece vitaminas e minerais, além da água, que o proporciona função diurética. “Seus antioxidantes previnem o envelhecimento precoce e a produção de radicais livres."</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes/>
+        <classification-category>legumes</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="rabanete">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Rabanete</display-name>
+        <short-description xml:lang="x-default">Ame ou odeie, o rabanete é um ingrediente com sabor marcante e recheado de benefícios. Prima da couve e do repolho, essa hortaliça oferece vitaminas e minerais, além da água, que o proporciona função diurética. “Seus antioxidantes previnem o envelhecimento precoce e a produção de radicais livres."</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes/>
+        <classification-category>legumes</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="rucula">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Rúcula Baby Leaf</display-name>
+        <short-description xml:lang="x-default">A Rúcula é uma das folhas queridinha dos brasileiros! Tem sabor levemente amargo e folhas finas, podendo ser utilizada em saladas frias, pizzas, molhos (incluindo o molho pesto) e acompanhamento para carnes. A Rúcula é utilizada a milhares de anos para a alimentação humana e, desde então, sempre teve seu consumo associado à características afrodisíacas. Além desse ""super-poder"", a Rúcula também é super rica em vitamina K, antioxidantes e fibras alimentares.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes/>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="tomate">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Tomate Carmem</display-name>
+        <short-description xml:lang="x-default">O tomate é o fruto do tomateiro. Da sua família, fazem também parte as berinjelas, as pimentas e os pimentões, além de algumas espécies não comestíveis. A palavra portuguesa tomate vem do castelhano tomate, derivada do náuatle tomatl. Esta apareceu pela primeira vez na imprensa em 1595.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>true</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <tax-class-id>standard</tax-class-id>
+        <page-attributes/>
+        <classification-category>legumes</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <category-assignment category-id="carnes-aves" product-id="morango"/>
+
+    <category-assignment category-id="frutas" product-id="abacaxi">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="frutas" product-id="limao">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="frutas" product-id="macagala">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="frutas" product-id="mamao">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="frutas" product-id="mexerica">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="frutas" product-id="morango">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="frutas" product-id="ovos">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="frutas" product-id="queijo-frescal">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="frutas" product-id="tomate">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="legumes" product-id="batata-doce">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="legumes" product-id="queijo-frescal"/>
+
+    <category-assignment category-id="legumes" product-id="rabanete">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="legumes" product-id="tomate"/>
+
+    <category-assignment category-id="ovos" product-id="morango"/>
+
+    <category-assignment category-id="queijos" product-id="morango"/>
+
+    <category-assignment category-id="temperos-diferenciados" product-id="morango"/>
+
+    <category-assignment category-id="tortas-bolos-fit" product-id="morango"/>
+
+</catalog>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stores xmlns="http://www.demandware.com/xml/impex/store/2007-04-30">
+    <store store-id="nature_life">
+        <name>Nature Life</name>
+        <address1>Av do Contorno, 10 - Pinheiros</address1>
+        <city>São Paulo</city>
+        <postal-code>01002-020</postal-code>
+        <country-code>BR</country-code>
+        <store-hours xml:lang="x-default">Closed Sundays.</store-hours>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">inventory_m_organicfood</custom-attribute>
+        </custom-attributes>
+    </store>
+</stores>

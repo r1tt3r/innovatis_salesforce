@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pricebooks xmlns="http://www.demandware.com/xml/impex/pricebook/2006-10-31">
+    <pricebook>
+        <header pricebook-id="brl-organicfood-list-prices">
+            <currency>BRL</currency>
+            <display-name xml:lang="x-default">List Prices</display-name>
+            <online-flag>true</online-flag>
+        </header>
+
+        <price-tables>
+            <price-table product-id="batata-doce">
+                <amount quantity="1">2.30</amount>
+            </price-table>
+            <price-table product-id="rabanete">
+                <amount quantity="1">1.20</amount>
+            </price-table>
+            <price-table product-id="queijo-frescal">
+                <amount quantity="1">20</amount>
+            </price-table>
+            <price-table product-id="tomate">
+                <amount quantity="1">2.95</amount>
+            </price-table>
+            <price-table product-id="ovos">
+                <amount quantity="1">12</amount>
+            </price-table>
+            <price-table product-id="mexerica">
+                <amount quantity="1">3.22</amount>
+            </price-table>
+            <price-table product-id="mamao">
+                <amount quantity="1">4.10</amount>
+            </price-table>
+            <price-table product-id="agriao">
+                <amount quantity="1">0.50</amount>
+            </price-table>
+            <price-table product-id="alface-crespa">
+                <amount quantity="1">0.99</amount>
+            </price-table>
+            <price-table product-id="alface-romana">
+                <amount quantity="1">0.99</amount>
+            </price-table>
+            <price-table product-id="rucula">
+                <amount quantity="1">0.99</amount>
+            </price-table>
+            <price-table product-id="brocolis">
+                <amount quantity="1">1.50</amount>
+            </price-table>
+            <price-table product-id="couveflor">
+                <amount quantity="1">1.90</amount>
+            </price-table>
+            <price-table product-id="abacaxi">
+                <amount quantity="1">9</amount>
+            </price-table>
+            <price-table product-id="limao">
+                <amount quantity="1">2</amount>
+            </price-table>
+            <price-table product-id="morango">
+                <amount quantity="1">8.90</amount>
+            </price-table>
+            <price-table product-id="macagala">
+                <amount quantity="1">2.70</amount>
+            </price-table>
+            <price-table product-id="abobora">
+                <amount quantity="1">3.20</amount>
+            </price-table>
+            <price-table product-id="beterraba">
+                <amount quantity="1">1.65</amount>
+            </price-table>
+        </price-tables>
+    </pricebook>
+</pricebooks>

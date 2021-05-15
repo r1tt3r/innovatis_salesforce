@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site xmlns="http://www.demandware.com/xml/impex/site/2007-04-30" site-id="ACNOrganicFood">
+    <name>ACN Organic Food</name>
+    <currency>BRL</currency>
+    <taxation>net</taxation>
+    <custom-cartridges>app_storefront_base</custom-cartridges>
+</site>
