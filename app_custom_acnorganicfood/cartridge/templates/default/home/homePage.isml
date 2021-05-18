@@ -1,0 +1,97 @@
+<isdecorate template="common/layout/page">
+    <isscript>
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addJs('/js/productTile.js');
+        assets.addCss('/css/homePage.css');
+    </isscript>
+
+    <div class="home-main homepage">
+        <isslot id="main-banner" description="Main Banner" context="global" />
+    </div>
+
+    <div class="container slider-categories homepage">
+        <div class="home-slider-categories no-gutters destaque-produtos">
+            <div class="text-center">
+                <h2>Produtos em Destaque</h2>
+            </div>
+            <isslot id="home-slider" description="featured product slider" context="global" />
+        </div>
+    </div>
+
+    <div class="container slider-categories homepage">
+        <div class="home-slider-categories no-gutters verduras">
+            <div class="text-center">
+                <h2>Verduras em Destaque</h2>
+            </div>
+            <isslot id="home-slider-1" description="featured product slider" context="global" />
+        </div>
+    </div>
+
+
+    <div class="container slider-categories homepage">
+        <div class="home-slider-categories no-gutters legumes">
+            <div class="text-center">
+                <h2>Legumes em Destaque</h2>
+            </div>
+            <isslot id="home-slider-2" description="featured product slider" context="global" />
+        </div>
+    </div>
+
+    <div class="container baskets homepage">
+
+        <div class="text-center">
+            <h2>Monte sua cesta personalizada</h2>
+
+            <p>Produtos orgânicos, frescos e entregue na sua casa.</p>
+            <p>Com três opções de tamanho Grande (12 produtos), Média (8 produtos) e pequena (5 produtos), escolha a
+                sua:</p>
+        </div>
+
+        <div class="row bastkets-img">
+            <div class="col-md-4 col-xs-12">
+                <isslot id="basket_small" description="basket small image link" context="global" />
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <isslot id="basket_medium" description="basket medium image link" context="global" />
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <isslot id="basket_big" description="basket big image link" context="global" />
+            </div>
+        </div>
+        <div class="text-center">
+            <h2>Ou aproveite nossas cestas pre-montadas</h2>
+            <p><a href="#">Clique aqui</a> e confira, você vai adorar !</p>
+
+
+        </div>
+    </div>
+
+
+    <div class="home-email-signup">
+        <div class="container">
+            <form role="form">
+                <div class="text-center">
+                    <h2>Novidades fresquinhas no seu e-mail</h2>
+                    <p>Quer receber noticias e novidades sobre nossos produtos, além de descontos especiais ?</p>
+                    <p>Insira seu email e receba nosso newsletter</p>
+                    <div class="row">
+                        <div class="m-auto">
+                            <div>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" name="hpEmailSignUp"
+                                        placeholder="${Resource.msg('placeholdertext.form.emailsignup', 'homePage', null)}"
+                                        aria-label="${Resource.msg('placeholdertext.form.emailsignup', 'homePage', null)}" />
+                                    <span class="input-group-append">
+                                        <button type="submit" class="btn btn-primary subscribe-email"
+                                            data-href="${URLUtils.url('EmailSubscribe-Subscribe')}">${Resource.msg('button.form.emailsignup', 'homePage', null)} </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</isdecorate>
