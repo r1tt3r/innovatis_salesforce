@@ -67,6 +67,14 @@ div[data-action='Home-Show'] #maincontent {
 }
 footer {
     background-color: #fff;
+    border-top: 1px solid #ccc;
+    margin-top: 60px;
+    padding-top: 50px;
+}
+
+div[data-action='Home-Show'] footer {
+    border-top: initial;
+    padding-top: initial;
 }
 
 .brand img {
@@ -80,6 +88,22 @@ footer {
 .site-search {
     display: flex;
     flex-direction: row-reverse;
+}
+
+.custom-recommendations h2 {
+    padding-bottom: 20px;
+}
+
+.carousel-cell {
+    width: 25%;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+}
+
+.flickity-viewport {
+    height: 420px !important;
 }
 
 @media only screen and (min-width: 992px) {
@@ -96,5 +120,8 @@ footer {
 @media only screen and (max-width: 768px) {
     .site-search {
         display: initial;
+    }
+    .flickity-viewport {
+        height: 220px !important;
     }
 }
