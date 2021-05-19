@@ -15,18 +15,6 @@
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css" />
 <style>
-    .carousel-cell {
-        width: 25%;
-        height: 200px;
-        margin-right: 10px;
-        border-radius: 5px;
-        counter-increment: carousel-cell;
-    }
-
-    .flickity-viewport {
-        height: 420px;
-    }
-
     .carousel {
         background: #EEE;
     }
