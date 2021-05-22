@@ -2,6 +2,9 @@
 div[data-action='Home-Show'] #maincontent {
     background: #f2edea;
 }
+header {
+    background: #fff;
+}
 .homepage h2 {
     color: #275d56;
     font-weight: 800;
@@ -104,6 +107,17 @@ div[data-action='Home-Show'] footer {
 
 .flickity-viewport {
     height: 420px !important;
+}
+
+h1.page-title,
+h1.page-title:before {
+    background-color: #a9bb5b !important;
+}
+
+.btn-primary,
+.btn-primary:hover {
+    background-color: #006151 !important;
+    border-color: #006151 !important;
 }
 
 @media only screen and (min-width: 992px) {
