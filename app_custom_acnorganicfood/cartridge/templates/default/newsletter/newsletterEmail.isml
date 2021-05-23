@@ -1,0 +1,17 @@
+<body>
+
+    <h1>${pdict.fullName}, </h1>
+
+    <p> E-mail enviado com sucesso! </p>
+
+    <p> <b>Mensagem: </b></br>
+
+        ${pdict.body} </p>
+
+
+    <p> Não deixe de visitar a nossa loja em: </p>
+
+    <p> <a href="${pdict.uri}">${pdict.uri}</a> </p>
+
+
+</body>
