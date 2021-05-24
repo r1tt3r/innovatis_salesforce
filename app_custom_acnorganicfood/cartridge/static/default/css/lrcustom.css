@@ -139,3 +139,7 @@ h1.page-title:before {
         height: 220px !important;
     }
 }
+
+.bundled-line-item.clearfix{
+    display:none;
+}
